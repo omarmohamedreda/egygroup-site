@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Egy Group Company</title>
+    <meta
+      name="description"
+      content="Contact Egy Group Company for quotes, technical support or distribution enquiries. Reach our Mansoura, Egypt office by phone, email or the form below."
+    />
+    <link rel="canonical" href="contact.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=Cairo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a
+      class="skip-link"
+      href="#main-content"
+      data-en="Skip to main content"
+      data-ar="الانتقال إلى المحتوى الرئيسي"
+      >Skip to main content</a
+    >
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Egy Group Company, home">
+          <img
+            src="assets/images/egy-group-logo.png"
+            alt="Egy Group Logo"
+            class="brand-logo"
+            data-en-aria="Egy Group Logo"
+            data-ar-aria="شعار Egy Group"
+          />
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Toggle navigation menu"
+        >
+          <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
+            <path
+              d="M2 5h18M2 11h18M2 17h18"
+              stroke="#1B2430"
+              stroke-width="2"
+              stroke-linecap="round"
+            ></path>
+          </svg>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Primary">
+          <ul>
+            <li>
+              <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a>
+            </li>
+            <li>
+              <a href="about.html" data-en="About Us" data-ar="من نحن"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="products.html" data-en="Products" data-ar="المنتجات"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a href="brands.html" data-en="Brands" data-ar="العلامات التجارية"
+                >Brands</a
+              >
+            </li>
+            <li>
+              <a href="services.html" data-en="Services" data-ar="خدماتنا"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" data-en="Contact Us" data-ar="اتصل بنا"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="lang-toggle" id="lang-toggle" type="button">
+          العربية
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-header">
+        <div class="container">
+          <p class="breadcrumb">
+            <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a
+            ><span aria-hidden="true">/</span
+            ><span data-en="Contact Us" data-ar="اتصل بنا">Contact Us</span>
+          </p>
+          <p class="eyebrow" data-en="Get in touch" data-ar="لنتواصل">
+            Get in touch
+          </p>
+          <h1
+            data-en="Let's talk about your project."
+            data-ar="لنتحدث عن مشروعك."
+          >
+            Let's talk about your project.
+          </h1>
+          <p
+            data-en="Send a quote request, ask a technical question, or arrange a factory visit — our team replies within 1–2 business days."
+            data-ar="أرسل طلب عرض سعر، أو استفسارًا فنيًا، أو رتّب زيارة للمصنع — يرد فريقنا خلال يوم إلى يومي عمل."
+          >
+            Send a quote request, ask a technical question, or arrange a factory
+            visit &mdash; our team replies within 1&ndash;2 business days.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt" aria-labelledby="contact-heading">
+        <div
+          class="container grid grid-2"
+          style="gap: 3rem; align-items: flex-start"
+        >
+          <div>
+            <h2
+              id="contact-heading"
+              class="visually-hidden"
+              data-en="Contact form"
+              data-ar="نموذج التواصل"
+            >
+              Contact form
+            </h2>
+            <div class="card">
+              <div
+                id="form-status"
+                class="form-status"
+                role="status"
+                aria-live="polite"
+              ></div>
+              <form id="contact-form" class="form-grid" novalidate>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="name"
+                      ><span data-en="Full name" data-ar="الاسم بالكامل"
+                        >Full name</span
+                      >
+                      <span class="required" aria-hidden="true">*</span></label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      autocomplete="name"
+                      required
+                      aria-required="true"
+                      aria-describedby="name-error"
+                    />
+                    <span
+                      class="field-error"
+                      id="name-error"
+                      data-en="Please enter your full name (min. 2 characters)."
+                      data-ar="من فضلك أدخل اسمك بالكامل (حرفان على الأقل)."
+                      >Please enter your full name (min. 2 characters).</span
+                    >
+                  </div>
+                  <div class="field">
+                    <label for="email"
+                      ><span data-en="Email address" data-ar="البريد الإلكتروني"
+                        >Email address</span
+                      >
+                      <span class="required" aria-hidden="true">*</span></label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      autocomplete="email"
+                      required
+                      aria-required="true"
+                      aria-describedby="email-error"
+                    />
+                    <span
+                      class="field-error"
+                      id="email-error"
+                      data-en="Please enter a valid email address."
+                      data-ar="من فضلك أدخل بريدًا إلكترونيًا صحيحًا."
+                      >Please enter a valid email address.</span
+                    >
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="field">
+                    <label
+                      for="phone"
+                      data-en="Phone number"
+                      data-ar="رقم الهاتف"
+                      >Phone number</label
+                    >
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      autocomplete="tel"
+                      aria-describedby="phone-error"
+                    />
+                    <span
+                      class="field-error"
+                      id="phone-error"
+                      data-en="Please enter a valid phone number, or leave blank."
+                      data-ar="من فضلك أدخل رقم هاتف صحيح، أو اتركه فارغًا."
+                      >Please enter a valid phone number, or leave blank.</span
+                    >
+                  </div>
+                  <div class="field">
+                    <label for="subject"
+                      ><span data-en="Subject" data-ar="الموضوع">Subject</span>
+                      <span class="required" aria-hidden="true">*</span></label
+                    >
+                    <select
+                      id="subject"
+                      name="subject"
+                      required
+                      aria-required="true"
+                      aria-describedby="subject-error"
+                    >
+                      <option
+                        value=""
+                        data-en="Select a subject"
+                        data-ar="اختر الموضوع"
+                      >
+                        Select a subject
+                      </option>
+                      <option
+                        value="quote"
+                        data-en="Request a quote"
+                        data-ar="طلب عرض سعر"
+                      >
+                        Request a quote
+                      </option>
+                      <option
+                        value="technical"
+                        data-en="Technical / spec question"
+                        data-ar="سؤال فني / عن المواصفات"
+                      >
+                        Technical / spec question
+                      </option>
+                      <option
+                        value="dealer"
+                        data-en="Become a dealer"
+                        data-ar="كن موزعًا معتمدًا"
+                      >
+                        Become a dealer
+                      </option>
+                      <option
+                        value="visit"
+                        data-en="Arrange a factory visit"
+                        data-ar="ترتيب زيارة للمصنع"
+                      >
+                        Arrange a factory visit
+                      </option>
+                      <option value="other" data-en="Other" data-ar="أخرى">
+                        Other
+                      </option>
+                    </select>
+                    <span
+                      class="field-error"
+                      id="subject-error"
+                      data-en="Please choose a subject."
+                      data-ar="من فضلك اختر موضوعًا."
+                      >Please choose a subject.</span
+                    >
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="message"
+                    ><span data-en="Message" data-ar="الرسالة">Message</span>
+                    <span class="required" aria-hidden="true">*</span></label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    aria-required="true"
+                    aria-describedby="message-error"
+                    placeholder="Tell us about your project, quantities and timeline..."
+                    data-en-placeholder="Tell us about your project, quantities and timeline..."
+                    data-ar-placeholder="أخبرنا عن مشروعك، الكميات والجدول الزمني..."
+                  ></textarea>
+                  <span
+                    class="field-error"
+                    id="message-error"
+                    data-en="Please enter a message of at least 10 characters."
+                    data-ar="من فضلك أدخل رسالة لا تقل عن 10 أحرف."
+                    >Please enter a message of at least 10 characters.</span
+                  >
+                </div>
+                <div class="field">
+                  <label
+                    style="
+                      flex-direction: row;
+                      align-items: flex-start;
+                      display: flex;
+                      gap: 0.6rem;
+                      font-weight: 500;
+                    "
+                  >
+                    <input
+                      type="checkbox"
+                      id="consent"
+                      name="consent"
+                      required
+                      aria-required="true"
+                      aria-describedby="consent-error"
+                      style="margin-top: 0.2rem"
+                    />
+                    <span
+                      ><span
+                        data-en="I agree to be contacted by Egy Group Company regarding my enquiry."
+                        data-ar="أوافق على أن يتواصل معي فريق Egy Group بخصوص استفساري."
+                        >I agree to be contacted by Egy Group Company regarding
+                        my enquiry.</span
+                      >
+                      <span class="required" aria-hidden="true">*</span></span
+                    >
+                  </label>
+                  <span
+                    class="field-error"
+                    id="consent-error"
+                    data-en="Please confirm you agree before submitting."
+                    data-ar="من فضلك وافق قبل الإرسال."
+                    >Please confirm you agree before submitting.</span
+                  >
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-block"
+                  data-en="Send Message"
+                  data-ar="إرسال الرسالة"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div>
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <span class="icon-ring" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 21s-7-4.5-7-10a7 7 0 0114 0c0 5.5-7 10-7 10z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    ></path>
+                    <circle
+                      cx="12"
+                      cy="11"
+                      r="2.4"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    ></circle>
+                  </svg>
+                </span>
+                <div>
+                  <h3
+                    style="margin-bottom: 0.2em; font-size: 1rem"
+                    data-en="Factory &amp; Head Office"
+                    data-ar="المصنع والمقر الرئيسي"
+                  >
+                    Factory &amp; Head Office
+                  </h3>
+                  <p
+                    style="margin: 0; color: var(--color-steel)"
+                    data-en="Industrial Zone, Mansoura, Dakahlia Governorate, Egypt"
+                    data-ar="المنطقة الصناعية، المنصورة، محافظة الدقهلية، مصر"
+                  >
+                    Industrial Zone, Mansoura, Dakahlia Governorate, Egypt
+                  </p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="icon-ring" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M4 5h4l2 5-2.5 1.5a11 11 0 005 5L14 14l5 2v4a2 2 0 01-2 2A16 16 0 013 7a2 2 0 012-2z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </span>
+                <div>
+                  <h3
+                    style="margin-bottom: 0.2em; font-size: 1rem"
+                    data-en="Phone"
+                    data-ar="الهاتف"
+                  >
+                    Phone
+                  </h3>
+                  <p style="margin: 0; color: var(--color-steel)">
+                    +20 50 123 4567
+                    <span data-en="(Sales)" data-ar="(المبيعات)">(Sales)</span
+                    ><br />+20 50 123 4568
+                    <span data-en="(Technical)" data-ar="(الدعم الفني)"
+                      >(Technical)</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="icon-ring" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <rect
+                      x="3"
+                      y="5"
+                      width="18"
+                      height="14"
+                      rx="2"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    ></rect>
+                    <path
+                      d="M4 7l8 6 8-6"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </span>
+                <div>
+                  <h3
+                    style="margin-bottom: 0.2em; font-size: 1rem"
+                    data-en="Email"
+                    data-ar="البريد الإلكتروني"
+                  >
+                    Email
+                  </h3>
+                  <p style="margin: 0; color: var(--color-steel)">
+                    info@egygroup-example.com<br />sales@egygroup-example.com
+                  </p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="icon-ring" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="9"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    ></circle>
+                    <path
+                      d="M12 7v5l3 2"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                    ></path>
+                  </svg>
+                </span>
+                <div>
+                  <h3
+                    style="margin-bottom: 0.2em; font-size: 1rem"
+                    data-en="Working Hours"
+                    data-ar="ساعات العمل"
+                  >
+                    Working Hours
+                  </h3>
+                  <p
+                    style="margin: 0; color: var(--color-steel)"
+                    data-en="Sunday–Thursday, 8:00–17:00 (Cairo time)"
+                    data-ar="الأحد–الخميس، 8:00–17:00 (بتوقيت القاهرة)"
+                  >
+                    Sunday&ndash;Thursday, 8:00&ndash;17:00 (Cairo time)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="map-placeholder" style="margin-top: 1.75rem">
+              <svg
+                width="100%"
+                height="220"
+                viewBox="0 0 400 220"
+                role="img"
+                aria-label="Placeholder map showing Egy Group factory location in Mansoura, Egypt"
+                data-en-aria="Placeholder map showing Egy Group factory location in Mansoura, Egypt"
+                data-ar-aria="خريطة تجريبية توضح موقع مصنع Egy Group في المنصورة، مصر"
+              >
+                <rect width="400" height="220" fill="#E4E9EE"></rect>
+                <path
+                  d="M0 150 L120 130 L200 160 L280 120 L400 140"
+                  stroke="#B9C5D6"
+                  stroke-width="6"
+                  fill="none"
+                ></path>
+                <path
+                  d="M0 90 L150 70 L260 95 L400 60"
+                  stroke="#B9C5D6"
+                  stroke-width="4"
+                  fill="none"
+                ></path>
+                <circle cx="220" cy="115" r="10" fill="#E8622C"></circle>
+                <circle cx="220" cy="115" r="4" fill="#fff"></circle>
+                <text
+                  x="200"
+                  y="200"
+                  font-family="Arial"
+                  font-size="12"
+                  fill="#5C6773"
+                  text-anchor="middle"
+                  data-en="Map placeholder — embed Google Maps here"
+                  data-ar="مساحة مخصصة للخريطة — أضف خريطة جوجل هنا"
+                >
+                  Map placeholder &mdash; embed Google Maps here
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-col">
+          <a
+            class="brand"
+            href="index.html"
+            aria-label="Egy Group Company, home"
+          >
+            <img
+              src="assets/images/egy-group-white.png"
+              alt="Egy Group Logo"
+              class="footer-brand-logo"
+              data-en-aria="Egy Group Logo"
+              data-ar-aria="شعار Egy Group"
+            />
+          </a>
+          <p
+            data-en="Manufacturing PVC, PPR and PPH pipe systems for Egypt's construction and infrastructure sector since 1998."
+            data-ar="نصنّع أنظمة أنابيب PVC و PPR و PPH لقطاع الإنشاءات والبنية التحتية في مصر منذ عام 1998."
+          >
+            Manufacturing PVC, PPR and PPH pipe systems for Egypt's construction
+            and infrastructure sector since 1998.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Egy Group on Facebook"
+              ><svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M15 8h2V4h-2a4 4 0 00-4 4v2H9v4h2v6h4v-6h2.5l.5-4H15V8z"
+                  fill="#fff"
+                ></path></svg
+            ></a>
+            <a href="#" aria-label="Egy Group on LinkedIn"
+              ><svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="2"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="1.4"
+                ></rect>
+                <path
+                  d="M7 10v7M7 7v.01M11 17v-4.5a2 2 0 014 0V17M11 12.5v4.5"
+                  stroke="#fff"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                ></path></svg
+            ></a>
+            <a href="#" aria-label="Egy Group on Instagram"
+              ><svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="5"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="1.4"
+                ></rect>
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="1.4"
+                ></circle>
+                <circle cx="17.5" cy="6.5" r="1" fill="#fff"></circle></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-en="Company" data-ar="الشركة">Company</h4>
+          <ul>
+            <li>
+              <a href="about.html" data-en="About Us" data-ar="من نحن"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="brands.html" data-en="Brands" data-ar="العلامات التجارية"
+                >Brands</a
+              >
+            </li>
+            <li>
+              <a href="services.html" data-en="Services" data-ar="خدماتنا"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" data-en="Careers" data-ar="الوظائف"
+                >Careers</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-en="Products" data-ar="المنتجات">Products</h4>
+          <ul>
+            <li>
+              <a
+                href="products.html#pvc"
+                data-en="PVC-U Pipes"
+                data-ar="أنابيب PVC-U"
+                >PVC-U Pipes</a
+              >
+            </li>
+            <li>
+              <a
+                href="products.html#ppr"
+                data-en="PPR Systems"
+                data-ar="أنظمة PPR"
+                >PPR Systems</a
+              >
+            </li>
+            <li>
+              <a
+                href="products.html#pph"
+                data-en="PPH Systems"
+                data-ar="أنظمة PPH"
+                >PPH Systems</a
+              >
+            </li>
+            <li>
+              <a
+                href="products.html#fittings"
+                data-en="Fittings"
+                data-ar="الوصلات"
+                >Fittings</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-en="Contact" data-ar="التواصل">Contact</h4>
+          <ul>
+            <li
+              data-en="Industrial Zone, Mansoura, Dakahlia, Egypt"
+              data-ar="المنطقة الصناعية، المنصورة، الدقهلية، مصر"
+            >
+              Industrial Zone, Mansoura, Dakahlia, Egypt
+            </li>
+            <li>+20 50 123 4567</li>
+            <li>info@egygroup-example.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p
+          data-en="© 2026 Egy Group Company for Trade &amp; Manufacturing. All rights reserved."
+          data-ar="© 2026 شركة Egy Group للتجارة والتصنيع. جميع الحقوق محفوظة."
+        >
+          &copy; 2026 Egy Group Company for Trade &amp; Manufacturing. All
+          rights reserved.
+        </p>
+        <p
+          data-en="Placeholder content for demonstration purposes."
+          data-ar="محتوى تجريبي لأغراض العرض فقط."
+        >
+          Placeholder content for demonstration purposes.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
